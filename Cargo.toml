@@ -1,0 +1,11 @@
+[package]
+name = "simple_s3"
+version = "0.1.0"
+authors = ["Pyry Kontio <pyry.kontio@drasa.eu>"]
+edition = "2018"
+description = "A crate to access AWS S3"
+license = "MIT"
+
+[dependencies]
+aws_auth = "0.1"
+reqwest = "0.10.0-alpha.2"
